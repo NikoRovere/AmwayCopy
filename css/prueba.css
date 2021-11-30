@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(../multimedia/fondo_verde2.jpeg);
+  background-repeat: repeat; }
+
+img {
+  width: 160px;
+  height: 160px;
+  padding: 8px;
+  border-radius: 20px; }
+
+.imgLupa {
+  height: 19px;
+  width: 19px; }
+
+/*Menu navegacion*/
+.menuLista {
+  list-style: none;
+  display: inline-block;
+  text-align: center; }
+
+.menuLista a {
+  text-decoration: none;
+  color: white;
+  padding: 15px 50px;
+  font-size: 20px;
+  font-weight: bold;
+  height: auto;
+  width: auto; }
+
+.menuLista a:hover {
+  background: #ED5811; }
+
+.encabezado {
+  display: grid;
+  width: 95%;
+  height: 320px;
+  margin: 25px auto 0px auto;
+  grid-template-columns: 300px auto;
+  grid-template-rows: 200px auto;
+  background: rgba(5, 7, 12, 0.6); }
+
+.caja1 {
+  margin: auto; }
+
+.caja1 img:hover {
+  width: 170px;
+  height: 170px; }
+
+.caja2 {
+  margin: auto;
+  padding: 15px 0; }
+
+.caja3 {
+  grid-column: 1/3;
+  height: 84px;
+  text-align: center; }
+
+input[type="image"] {
+  vertical-align: middle; }
+
+input[type="search"] {
+  display: inline-block;
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 5px;
+  font-size: 18px;
+  border: black;
+  background-color: #c3d6d2;
+  width: 700px; }
+
+/*Carousel de imagenes*/
+.banners {
+  display: grid;
+  width: 95%;
+  height: 570px;
+  background: rgba(5, 7, 12, 0.6);
+  margin: 0px auto; }
+
+.slide {
+  margin-top: 10px; }
+
+.slide img {
+  height: auto; }
+
+/*Segundo menu de navegacion*/
+.menuProductos {
+  background: rgba(5, 7, 12, 0.6);
+  width: 95%;
+  height: 30px;
+  margin: 0px auto; }
+
+.menuProductos li a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 20px;
+  font-size: 25px; }
+
+.menuProductos li {
+  display: inline-block; }
+
+.menuProductos li a:hover {
+  font-weight: bold; }
+
+/*Textos Complementarios*/
+.vetajasOmway {
+  display: grid;
+  width: 95%;
+  height: 400px;
+  background: rgba(5, 7, 12, 0.6);
+  margin: 10px auto 200px auto; }
+
+/*footer*/
+.redes {
+  display: grid;
+  margin: 5px auto;
+  width: 95%;
+  height: 70px;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center; }
+
+footer div {
+  text-align: center; }
+
+.redes img {
+  width: 60px;
+  height: 60px;
+  padding: 10px; }
+
+p {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: whitesmoke; }
+
+.colorTitulos {
+  color: whitesmoke; }
+
+.headerRegistro {
+  text-align: center;
+  background: rgba(5, 7, 12, 0.6);
+  width: 95%;
+  height: 110px;
+  margin: 30px auto; }
+  .headerRegistro h1 {
+    color: antiquewhite;
+    font-weight: bold; }
+
+.titleForm {
+  color: antiquewhite;
+  font-weight: bold;
+  width: 50%;
+  margin: 30px auto;
+  background: rgba(8, 124, 43, 0.6);
+  text-align: center; }
+
+.inputBox {
+  text-align: center;
+  display: grid;
+  width: 95%;
+  height: 200px;
+  margin: 30px auto;
+  background: rgba(5, 7, 12, 0.6);
+  grid-template-columns: auto auto;
+  grid-template-rows: 50px 50px 50px 50px; }
+
+label {
+  color: antiquewhite;
+  width: 400px;
+  text-align: end;
+  padding: 10px;
+  margin: auto; }
+
+.checkButton {
+  width: 95%;
+  height: 100px;
+  text-align: center;
+  margin: 30px auto;
+  font-size: 20px;
+  font-weight: bolder; }
+
+.checkButton label:hover {
+  text-decoration: underline wavy black; }
+
+#banner_intro {
+  width: 95%;
+  height: 550px;
+  background-color: rgba(5, 7, 12, 0.6);
+  text-align: center;
+  margin: 25px auto; }
+  #banner_intro img {
+    width: auto;
+    height: auto; }
+
+.menuConocenos {
+  display: grid;
+  width: 95%;
+  height: auto;
+  background-color: rgba(5, 7, 12, 0.6);
+  margin: 25px auto 20px auto;
+  grid-template-columns: auto auto;
+  grid-template-rows: 500px 500px 500px;
+  align-items: center; }
+  .menuConocenos .menuConocenos_div:hover {
+    background-color: rgba(5, 12, 7, 0.651);
+    transition: 1s;
+    border-radius: 10px; }
+  .menuConocenos .imgProd {
+    width: auto;
+    height: auto; }
+  .menuConocenos .textBox {
+    font-size: 20px; }
+
+.formContac {
+  display: grid;
+  width: 95%;
+  height: auto;
+  background-color: rgba(5, 7, 12, 0.6);
+  margin: 25px auto 70px auto; }
+
+.headerCatalogo {
+  width: 95%;
+  height: 300;
+  background-color: rgba(5, 7, 12, 0.6);
+  margin: 25px auto 70px auto; }
+  .headerCatalogo h1 {
+    font-weight: bold;
+    color: antiquewhite;
+    text-align: center; }
+
+.subtext {
+  font-weight: bold;
+  color: antiquewhite;
+  text-align: left;
+  font-size: 20px;
+  margin: auto 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+.boxItem {
+  display: flex;
+  margin: auto 20px;
+  justify-content: space-between;
+  margin-bottom: 40px; }
+
+.card-text-black {
+  color: black; }
+
+.imgItem {
+  height: auto;
+  width: auto; }
+
+.mainContacto {
+  width: 95%;
+  height: auto;
+  background-color: rgba(5, 7, 12, 0.6);
+  margin: 25px auto 70px auto;
+  text-align: center;
+  padding: 20px; }
+  .mainContacto h2 {
+    font-weight: bold;
+    color: antiquewhite; }
+
+.headerContacto {
+  width: 95%;
+  height: 300;
+  background-color: rgba(5, 7, 12, 0.6);
+  margin: 25px auto 70px auto; }
+  .headerContacto h1 {
+    font-weight: bold;
+    color: antiquewhite;
+    text-align: center; }
